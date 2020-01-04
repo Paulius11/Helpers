@@ -1,3 +1,11 @@
+// Sets
+
+   // Removing duplicates
+List removeDuplicateStrings(List<Long> a) {
+    return new ArrayList(new LinkedHashSet(a));      
+}
+
+
 // Arrays
 
 
