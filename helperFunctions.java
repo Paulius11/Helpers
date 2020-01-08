@@ -24,3 +24,8 @@ List removeDuplicateStrings(List<Long> a) {
 private static int getIntegerElement(int intNumber, int index) {
     return Character.getNumericValue(Integer.toString(intNumber).charAt(index));
 }
+
+   // randomNum(1, 10) -> 5 
+public static int randomNum(int min, int max) {
+   return ThreadLocalRandom.current().nextInt(min, max + 1);
+}
