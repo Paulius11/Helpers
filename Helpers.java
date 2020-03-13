@@ -15,7 +15,7 @@ public class Helpers {
 	// Strings
 
 	// getStringFromStringIndex("Abcd", 1) -> "b"
-	public static String getStringFromStringIndex(String str1, int index) {
+	public static String getOneLetterFromString(String str1, int index) {
 		return String.valueOf(str1.charAt(index));
 	}
 
